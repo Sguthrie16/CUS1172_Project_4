@@ -1,28 +1,37 @@
 {
-"Questions_Quiz1": [
-  {
-    "id": 1,
-    "title": "hello",
-    "question": "Which is correct Java Syntax",
-    "options": {
-      "optiona": "System.in.println",
-      "optionb": "System.out.println",
-      "optionc": "helloWorld",
-      "optiond": "Print helloWorld"
+  "Questions_Quiz1": [
+    {
+      "id": 1,
+      "title": "hello",
+      "question": "Which is correct Java Syntax",
+      "options": {
+        "optiona": "System.in.println",
+        "optionb": "System.out.println",
+        "optionc": "helloWorld",
+        "optiond": "Print helloWorld"
+      },
+      "correct_answers": "optionb"
     },
-    "correct_answers": "optionb"
-  },
-  {
-    "id": 2,
-    "question": "How many H tags are there HTML",
-    "options": {
-      "optiona": "1",
-      "optionb": "10",
-      "optionc": "6",
-      "optiond": "7"
+    {
+      "id": 2,
+      "question": "How many H tags are there HTML",
+      "options": {
+        "optiona": "1",
+        "optionb": "10",
+        "optionc": "6",
+        "optiond": "7"
+      },
+      "correct_answers": "optionc"
     },
-    "correct_answers": "optionc"
-  }
-
-]
+    {
+      "id": 3,
+      "question": "Does java run on a virtual environment",
+      "options": {
+        "optiona": "True",
+        "optionb": "False",
+      },
+      "correct_answers": "True",
+      "explanation": "It complies ona virtual environment"
+      }
+  ]
 }
