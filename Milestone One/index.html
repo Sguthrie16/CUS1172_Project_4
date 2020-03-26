@@ -12,7 +12,7 @@
   </head>
   <body>
 <!-- Title -->
-<div class="jumbotron text-center" style="background:#52b700; color">
+<div class="jumbotron text-center" style="background:#213646; color:white;">
   <h1 id="title">Quiz</h1>
 </div>
 
@@ -69,8 +69,21 @@
 </div>
 
 <!-- Encouragment -->
-<div id="result">
-
+<div id="encouragment_grid" style="display:none;">
+  <div class="row">
+    <div class="col-lg-9">
+      <h2 id="encouragment" style="padding:10px;"></h2>
+    </div>
+    <div class="col-lg-3">
+      <h4 id="score">Score</h4>
+    </div>
+  </div>
 </div>
+
+<!-- Explanation -->
+  <form id="explanation" style="display:none;">
+    <h4 id="question_explanation"></h4>
+    <input type="submit"  value="I understand" id="explanation_close">
+  </form>
   </body>
 </html>

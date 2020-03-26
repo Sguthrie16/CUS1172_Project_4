@@ -9,7 +9,8 @@
           "optionc": "helloWorld",
           "optiond": "Print helloWorld"
         },
-        "correct_answers": "optionb"
+        "correct_answers": "optionb",
+        "explanation": "The correct answers is B because we need to make the system know we are printing a message"
       },
       {
         "id": 2,
@@ -20,7 +21,9 @@
           "optionc": "6",
           "optiond": "7"
         },
-        "correct_answers": "optionc"
+        "correct_answers": "optionc",
+        "explanation": "The different H tags are H1, H2, H3, H4, H5, and H6. The smaller the number the smaller the text"
+      },
       }
 
     ]
