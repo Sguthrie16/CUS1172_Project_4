@@ -1,30 +1,43 @@
 {
-    "Questions_Quiz1": [
-      {
-        "id": 1,
-        "question": "Which is correct Java Syntax",
-        "options": {
-          "optiona": "System.in.println",
-          "optionb": "System.out.println",
-          "optionc": "helloWorld",
-          "optiond": "Print helloWorld"
-        },
-        "correct_answers": "optionb",
-        "explanation": "The correct answers is B because we need to make the system know we are printing a message"
+  "Questions_Quiz1": [
+    {
+      "id": 1,
+      "type": "Multiple Choice"
+      "question": "Which is correct Java Syntax",
+      "options": {
+        "optiona": "System.in.println",
+        "optionb": "System.out.println",
+        "optionc": "helloWorld",
+        "optiond": "Print helloWorld"
       },
-      {
-        "id": 2,
-        "question": "How many H tags are there HTML",
-        "options": {
-          "optiona": "1",
-          "optionb": "10",
-          "optionc": "6",
-          "optiond": "7"
-        },
-        "correct_answers": "optionc",
-        "explanation": "The different H tags are H1, H2, H3, H4, H5, and H6. The smaller the number the smaller the text"
+      "correct_answers": "System.out.println",
+      "explanation": "The correct answers is B because we need to make the system know we are printing a message"
+    },
+    {
+      "id": 2,
+      "type": "Multiple"
+      "question": "How many H tags are there HTML",
+      "options": {
+        "optiona": "1",
+        "optionb": "10",
+        "optionc": "6",
+        "optiond": "7"
+      },
+      "correct_answers": "6",
+      "explanation": "The different H tags are H1, H2, H3, H4, H5, and H6. The smaller the number the smaller the text"
+    },
+    {
+      "id": 3,
+      "type": "TF"
+      "question": "Does java run on a virtual environment",
+      "options": {
+        "optiona": "True",
+        "optionb": "False",
+      },
+      "correct_answers": "True",
+      "explanation": "It complies ona virtual environment"
       }
 
 
-    ]
+  ]
 }
