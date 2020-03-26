@@ -1,16 +1,14 @@
 {
-  "Questions_Quiz1": [
+  "Questions_Quiz_One": [
     {
       "id": 1,
       "question": "Which is correct Java Syntax",
       "options": {
-        a: "System.in.println"
-        b: "System.out.println"
-        c: "helloWorld"
+        a: "System.in.println",
+        b: "System.out.println",
+        c: "helloWorld",
         d: "Print helloWorld"
       },
       "correct_answers": "b"
     }
-  ],
-
-}
+  ]
