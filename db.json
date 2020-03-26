@@ -1,13 +1,13 @@
-const Questions_Quiz_One= [
+const quiz_one[
     {
-      "id": 1,
-      "question": "Which is correct Java Syntax",
-      "options": {
+      question: "Which is correct Java Syntax",
+      options: {
         a: "System.in.println",
         b: "System.out.println",
-        c: "helloWorld",
-        d: "Print helloWorld"
+        c: "HelloWorld",
+        d: "Print HelloWorld"
       },
       "correct_answers": "b"
     }
-  ];
+  ]
+  
