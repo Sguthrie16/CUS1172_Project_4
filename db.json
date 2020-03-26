@@ -1,13 +1,1 @@
-const quiz_one[
-    {
-      question: "Which is correct Java Syntax",
-      options: {
-        a: "System.in.println",
-        b: "System.out.println",
-        c: "HelloWorld",
-        d: "Print HelloWorld"
-      },
-      "correct_answers": "b"
-    }
-  ]
-  
+
