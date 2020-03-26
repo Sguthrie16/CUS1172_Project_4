@@ -1,4 +1,4 @@
-"Questions_Quiz_One": [
+const Questions_Quiz_One= [
     {
       "id": 1,
       "question": "Which is correct Java Syntax",
@@ -10,4 +10,4 @@
       },
       "correct_answers": "b"
     }
-  ]
+  ];
