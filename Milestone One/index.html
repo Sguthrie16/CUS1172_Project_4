@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="./functions.js"></script>
+    <title>Milestone One</title>
+  </head>
+  <body>
+<!-- Title -->
+<div class="jumbotron text-center" style="background:#52b700; color">
+  <h1 id="title">Quiz</h1>
+</div>
+
+<!-- login/choose quiz -->
+<div class="text-center container" id="login">
+  <form id="selector">
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="name" class="form-control" id="name">
+    </div>
+    <div class="form-group">
+      <label for="quizes">Select Quiz:</label>
+      <select class="form-control" id="quizes">
+        <option value="choice1">Quiz 1</option>
+        <option value="choice2">Quiz 2</option>
+      </select>
+    </div>
+    <button type="button" name="button" class="btn btn-default" id="quiz_select_submit">Submit</button>
+  </form>
+</div>
+
+<!-- First Quiz -->
+<div class="container" id="quiz1" style="display:none;">
+  <div class="row">
+    <div class="col-lg-9">
+      <h3>Question</h3>
+      <form id="quiz_one_questions">
+        <label for="name">Name:</label>
+        <input type="text" id="firstname" name="firstname">
+        <button type="submit" name="quiz_one_submit" id="quiz_one_submit">Submit</button>
+      </form>
+    </div>
+    <div class="col-lg-3">
+      <h4>Score</h4>
+    </div>
+  </div>
+</div>
+
+<!-- Second Quiz -->
+<div class="container" id="quiz2" style="display:none;">
+  <div class="row">
+    <div class="col-lg-9">
+      <h3>Quiz 2</h3>
+      <form id="quiz_two_questions">
+        <label for="job">Job:</label>
+        <input type="text" id="job" name="job">
+        <button type="submit" name="quiz_two_submit" id="quiz_two_submit">Submit</button>
+      </form>
+    </div>
+    <div class="col-lg-3">
+      <h4 id="score">Score</h4>
+    </div>
+  </div>
+</div>
+
+<!-- Encouragment -->
+  </body>
+</html>
