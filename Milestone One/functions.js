@@ -1,11 +1,12 @@
+// Loads contents first then tells the site what to do after a button is clicked
 document.addEventListener('DOMContentLoaded',
 function(){
   document.getElementById("quiz_select_submit").onclick = chose;
-  document.getElementById("quiz_one_submit").onclick = encouragment;
-  document.getElementById("quiz_one_submit").onclick = score;
-  document.getElementById("quiz_two_submit").onclick = encouragment;
-})
 
+  document.getElementById("quiz_one_questions").onclick = score;
+  document.getElementById("quiz_two_questions").onclick = encouragment;
+})
+let counter = 0;
 function chose(){
   document.getElementById("login").style.display = 'none';
   if (document.getElementById("quizes").selectedIndex == 0) {
@@ -17,12 +18,9 @@ function chose(){
 }
 
 function score(){
-  var counter = 0;
-  if (document.getElementById("firstname").value == "Sarah") {
-    counter = counter + 1
-    document.getElementById("score").innerHTML = `Score: ${counter}`
-    alert(counter);
-  }
+    var input = document.getElementById("#firstname").value
+    alert(input);
+
 }
 
 function encouragment(){

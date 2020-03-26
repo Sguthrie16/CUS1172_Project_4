@@ -5,12 +5,12 @@
         "title": "hello",
         "question": "Which is correct Java Syntax",
         "options": {
-          a: "System.in.println",
-          b: "System.out.println",
-          c: "helloWorld",
-          d: "Print helloWorld"
+          "optiona": "System.in.println",
+          "optionb": "System.out.println",
+          "optionc": "helloWorld",
+          "optiond": "Print helloWorld"
         },
-        "correct_answers": "b"
+        "correct_answers": "optionb"
       }
     ]
 }
