@@ -1,11 +1,16 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "Questions_Quiz1": [
+      {
+        "id": 1,
+        "title": "hello",
+        "question": "Which is correct Java Syntax",
+        "options": {
+          a: "System.in.println",
+          b: "System.out.println",
+          c: "helloWorld",
+          d: "Print helloWorld"
+        },
+        "correct_answers": "b"
+      }
+    ]
 }
