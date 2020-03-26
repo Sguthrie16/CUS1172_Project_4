@@ -23,7 +23,7 @@ count = 0;
         document.getElementById("quiz_one_questions").innerHTML = `
         <form>
         <h2>${current_question.question}</h2>
-        if(current_question.type == "Multiple Choice"){
+        if(current_question.question_type == "Multiple Choice"){
           <input type="radio" value = ${current_question.options.optiona} name = ${current_question.options.optiona}>
           <label for=${current_question.options.optiona}> ${current_question.options.optiona}</label><br>
           <input type="radio" value = ${current_question.options.optionb} name = ${current_question.options.optionb}>
@@ -34,7 +34,7 @@ count = 0;
           <label>${current_question.options.optiond}</label><br>
           <input type ="submit" value = "Submit" id="submit">
         }
-        else if (current_question.type == "TF") {
+        else if (current_question.question_type == "TF") {
           if(current_question.type == "Multiple"){
             <input type="radio" value = "true" name = "true">
             <label for="true">True</label><br>

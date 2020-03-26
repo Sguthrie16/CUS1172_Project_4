@@ -2,7 +2,7 @@
   "Questions_Quiz1": [
     {
       "id": 1,
-      "type": "Multiple Choice",
+      "question_type": "Multiple Choice",
       "question": "Which is correct Java Syntax",
       "options": {
         "optiona": "System.in.println",
@@ -15,7 +15,7 @@
     },
     {
       "id": 2,
-      "type": "Multiple Choice",
+      "question_type": "Multiple Choice",
       "question": "How many H tags are there HTML",
       "options": {
         "optiona": "1",
@@ -28,7 +28,7 @@
     },
     {
       "id": 3,
-      "type": "TF",
+      "question_type": "TF",
       "question": "Does java run on a virtual environment",
       "options": {
         "optiona": "True",
