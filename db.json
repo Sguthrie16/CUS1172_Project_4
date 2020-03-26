@@ -15,7 +15,7 @@
     },
     {
       "id": 2,
-      "type": "Multiple",
+      "type": "Multiple Choice",
       "question": "How many H tags are there HTML",
       "options": {
         "optiona": "1",
