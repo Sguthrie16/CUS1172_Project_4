@@ -2,7 +2,7 @@
   "Questions_Quiz1": [
     {
       "id": 1,
-      "title": "hello",
+      "question_type": "Multiple Choice",
       "question": "Which is correct Java Syntax",
       "options": {
         "optiona": "System.in.println",
@@ -10,10 +10,12 @@
         "optionc": "helloWorld",
         "optiond": "Print helloWorld"
       },
-      "correct_answers": "optionb"
+      "correct_answers": "System.out.println",
+      "explanation": "The correct answers is B because we need to make the system know we are printing a message"
     },
     {
       "id": 2,
+      "question_type": "Multiple Choice",
       "question": "How many H tags are there HTML",
       "options": {
         "optiona": "1",
@@ -21,7 +23,8 @@
         "optionc": "6",
         "optiond": "7"
       },
-      "correct_answers": "optionc"
+      "correct_answers": "6",
+      "explanation": "The different H tags are H1, H2, H3, H4, H5, and H6. The smaller the number the smaller the text"
     },
     {
       "id": 3,
