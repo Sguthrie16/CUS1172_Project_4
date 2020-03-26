@@ -2,7 +2,6 @@
     "Questions_Quiz1": [
       {
         "id": 1,
-        "title": "hello",
         "question": "Which is correct Java Syntax",
         "options": {
           "optiona": "System.in.println",
@@ -11,6 +10,18 @@
           "optiond": "Print helloWorld"
         },
         "correct_answers": "optionb"
+      },
+      {
+        "id": 2,
+        "question": "How many H tags are there HTML",
+        "options": {
+          "optiona": "1",
+          "optionb": "10",
+          "optionc": "6",
+          "optiond": "7"
+        },
+        "correct_answers": "optionc"
       }
+
     ]
 }

@@ -2,7 +2,6 @@
 document.addEventListener('DOMContentLoaded',
 function(){
   document.getElementById("quiz_select_submit").onclick = chose;
-
   document.getElementById("quiz_one_questions").onclick = score;
   document.getElementById("quiz_two_questions").onclick = encouragment;
 })
