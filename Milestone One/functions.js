@@ -24,16 +24,62 @@ data="";
         number_of_questions = Object.keys(data).length;
         generate_quiz_one(data,current_question,number_of_questions);
 
-      // else if (document.getElementById("quiz_select_submit").value == "Quiz2"){
-      //   current_question = data.Questions_Quiz2[count];
-      //   number_of_questions = Object.keys(data).length;
-      //   generate_quiz_two(data,current_question,number_of_questions);
-      // }
+      else if (document.getElementById("quiz_select_submit").value == "Quiz2"){
+        current_question = data.Questions_Quiz2[count];
+        number_of_questions = Object.keys(data).length;
+        generate_quiz_two(data,current_question,number_of_questions);
+      }
 
 }
 function generate_quiz_one(data,current_question,number_of_questions){
   for (var i = 0; i < number_of_questions; i++) {
-    
+
+    if(current_question.question_type == "Multiple choice"){
+      document.getElementById("quiz_one_questions").innerHTML = `
+        <form>
+        <h2>${current_question.question}</h2>
+          <input type="radio" value = ${current_question.options.optiona} name = ${current_question.options.optiona}>
+          <label for=${current_question.options.optiona}> ${current_question.options.optiona}</label><br>
+          <input type="radio" value = ${current_question.options.optionb} name = ${current_question.options.optionb}>
+          <label for=${current_question.options.optionb}>${current_question.options.optionb}</label><br>
+          <input type="radio" value = ${current_question.options.optionc} name = ${current_question.options.optionc}>
+          <label for=${current_question.options.optionc}> ${current_question.options.optionc}</label><br>
+          <input type="radio" value = ${current_question.options.optiond} name=${current_question.options.optiond}>
+          <label>${current_question.options.optiond}</label><br>
+          <input type ="submit" value = "Submit" id="submit">
+        </form>`
+    }
+    else if (current_question.question_type == "TF") {
+      document.getElementById("quiz_one_questions").innerHTML = `
+        <form>
+        <h2>${current_question.question}</h2>
+          <input type="radio" value = "true" name = "true">
+          <label for="true">True</label><br>
+          <input type="radio" value = "false" name = "false">
+          <label for="false">False</label><br>
+          <input type ="submit" value = "Submit" id="submit">
+        </form>`
+  }
+  else if (current_question.question_type == "Fill in") {
+    document.getElementById("quiz_one_questions").innerHTML = `
+      <form>
+      <h2>${current_question.question}</h2>
+      <input type = "text" name = "answer">
+      <input type ="submit" value="Submit" id="submit"
+      </form>`
+  }
+  count = count + 1;
+}
+if(current_question == number_of_questions){
+  document.getElementById("quiz_one_questions").innerHTML = "Completes"
+}
+}
+
+
+
+function generate_quiz_two(data,current_question,number_of_questions){
+  for (var i = 0; i < number_of_questions; i++) {
+
     if(current_question.question_type == "Multiple choice"){
       document.getElementById("quiz_one_questions").innerHTML = `
         <form>
