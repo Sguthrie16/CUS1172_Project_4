@@ -28,10 +28,13 @@
     },
     {
       "id": 3,
+      question_type: "TF",
       "question": "Does java run on a virtual environment",
       "options": {
         "optiona": "True",
         "optionb": "False",
+        "optionc": "",
+        "optiond": ""
       },
       "correct_answers": "True",
       "explanation": "It complies ona virtual environment"
