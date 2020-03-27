@@ -25,6 +25,17 @@
       },
       "correct_answers": "6",
       "explanation": "The different H tags are H1, H2, H3, H4, H5, and H6. The smaller the number the smaller the text"
+    },
+    {
+      "id":3,
+      "question_type": "TF",
+      "question": "Does Java run on a virtual enviornment",
+      "options":{
+        "optiona": "True",
+        "optionb": "False"
+      },
+      "correct_answers":"True",
+      "explanation": "Java runs of a virtual enviornment"
     }
   ]
 }
