@@ -20,33 +20,42 @@ count = 0;
       number_of_questions = Object.keys(data).length;
       for (var i = 0; i < number_of_questions; i++) {
 
-        document.getElementById("quiz_one_questions").innerHTML = `
-        <form>
-        <h2>${current_question.question}</h2>
-        if(current_question.question_type == "Multiple Choice"){
-          <input type="radio" value = ${current_question.options.optiona} name = ${current_question.options.optiona}>
-          <label for=${current_question.options.optiona}> ${current_question.options.optiona}</label><br>
-          <input type="radio" value = ${current_question.options.optionb} name = ${current_question.options.optionb}>
-          <label for=${current_question.options.optionb}>${current_question.options.optionb}</label><br>
-          <input type="radio" value = ${current_question.options.optionc} name = ${current_question.options.optionc}>
-          <label for=${current_question.options.optionc}> ${current_question.options.optionc}</label><br>
-          <input type="radio" value = ${current_question.options.optiond} name=${current_question.options.optiond}>
-          <label>${current_question.options.optiond}</label><br>
-          <input type ="submit" value = "Submit" id="submit">
+
+        if(current_question.question_type == "Multiple choice"){
+          document.getElementById("quiz_one_questions").innerHTML = `
+          <form>
+          <h2>${current_question.question}</h2>
+            <input type="radio" value = ${current_question.options.optiona} name = ${current_question.options.optiona}>
+            <label for=${current_question.options.optiona}> ${current_question.options.optiona}</label><br>
+            <input type="radio" value = ${current_question.options.optionb} name = ${current_question.options.optionb}>
+            <label for=${current_question.options.optionb}>${current_question.options.optionb}</label><br>
+            <input type="radio" value = ${current_question.options.optionc} name = ${current_question.options.optionc}>
+            <label for=${current_question.options.optionc}> ${current_question.options.optionc}</label><br>
+            <input type="radio" value = ${current_question.options.optiond} name=${current_question.options.optiond}>
+            <label>${current_question.options.optiond}</label><br>
+            <input type ="submit" value = "Submit" id="submit">
+          </form>`
         }
         else if (current_question.question_type == "TF") {
-          if(current_question.type == "Multiple"){
+          document.getElementById("quiz_one_questions").innerHTML = `
+          <form>
+          <h2>${current_question.question}</h2>
             <input type="radio" value = "true" name = "true">
             <label for="true">True</label><br>
             <input type="radio" value = "false" name = "false">
             <label for="false">False</label><br>
             <input type ="submit" value = "Submit" id="submit">
-        }
-
-        </form>`
-        count = count + 1;
+          </form>`
       }
-
+      else if (current_question.question_type == "Fill in") {
+        document.getElementById("quiz_one_questions").innerHTML = `
+        <form>
+        <h2>${current_question.question}</h2>
+        <input type = "text" value = "answer">
+        </form>`
+      }
+      count = count + 1;
+}
 }
 function timed_encouragment(){
 

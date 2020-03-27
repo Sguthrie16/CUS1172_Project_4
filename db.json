@@ -2,7 +2,7 @@
   "Questions_Quiz1": [
     {
       "id": 1,
-      "question_type": "Multiple Choice",
+      "question_type": "Multiple choice",
       "question": "Which is correct Java Syntax",
       "options": {
         "optiona": "System.in.println",
@@ -15,7 +15,7 @@
     },
     {
       "id": 2,
-      "question_type": "Multiple Choice",
+      "question_type": "Multiple choice",
       "question": "How many H tags are there HTML",
       "options": {
         "optiona": "1",
@@ -36,6 +36,13 @@
       },
       "correct_answers":"True",
       "explanation": "Java runs of a virtual enviornment"
+    },
+    {
+      "id":3,
+      "question_type": "Fill in",
+      "question": "What is the output of this line \n x=10; \nif(x>10){\n console.log(x*4)}\nelse if(x>=10){\n console.log(x*5)}",
+      "correct_answers":"9",
+      "explanation": "You need to make sure to check for the value using the greater than or equal"
     }
   ]
 }
