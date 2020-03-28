@@ -44,5 +44,51 @@
       "correct_answers":"50",
       "explanation": "You need to make sure to check for the value using the greater than or equal"
     }
+  ],
+  "Questions_Quiz2": [
+    {
+      "id": 1,
+      "question_type": "Multiple choice",
+      "question": "Which is correct python Syntax",
+      "options": {
+        "optiona": "System.in.println",
+        "optionb": "System.out.println",
+        "optionc": "helloWorld",
+        "optiond": "Print helloWorld"
+      },
+      "correct_answers": "System.out.println",
+      "explanation": "The correct answers is B because we need to make the system know we are printing a message"
+    },
+    {
+      "id": 2,
+      "question_type": "Multiple choice",
+      "question": "How many H tags are there HTML",
+      "options": {
+        "optiona": "1",
+        "optionb": "10",
+        "optionc": "6",
+        "optiond": "7"
+      },
+      "correct_answers": "6",
+      "explanation": "The different H tags are H1, H2, H3, H4, H5, and H6. The smaller the number the smaller the text"
+    },
+    {
+      "id":3,
+      "question_type": "TF",
+      "question": "Does Java run on a virtual enviornment",
+      "options":{
+        "optiona": "True",
+        "optionb": "False"
+      },
+      "correct_answers":"True",
+      "explanation": "Java runs of a virtual enviornment"
+    },
+    {
+      "id":4,
+      "question_type": "Fill in",
+      "question": "What is the output of this line \n x=10; \nif(x>10){\n console.log(x*4)}\nelse if(x>=10){\n console.log(x*5)}",
+      "correct_answers":"50",
+      "explanation": "You need to make sure to check for the value using the greater than or equal"
+    }
   ]
 }
