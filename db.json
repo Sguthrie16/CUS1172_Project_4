@@ -38,7 +38,7 @@
       "explanation": "Java runs of a virtual enviornment"
     },
     {
-      "id":3,
+      "id":4,
       "question_type": "Fill in",
       "question": "What is the output of this line \n x=10; \nif(x>10){\n console.log(x*4)}\nelse if(x>=10){\n console.log(x*5)}",
       "correct_answers":"50",
