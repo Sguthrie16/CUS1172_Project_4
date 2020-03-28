@@ -4,7 +4,7 @@ function(){
   document.getElementById("quiz_select_submit").onclick =()=>{
     get_api_data('https://my-json-server.typicode.com/sguthrie16/CUS1172_Project_4/db')
     };
-  document.getElementById("quiz_one_questions").onclick =()=>{score_tracker(), count = count +1};
+  document.getElementById("quiz_one_questions").onsubmit =()=>{score_tracker(), count = count +1};
   document.getElementById("move_on").onclick =()=>{
     get_api_data('https://my-json-server.typicode.com/sguthrie16/CUS1172_Project_4/db')
     };
@@ -37,7 +37,6 @@ answer ="";
       question_id = current_question.id;
       answer = current_question.correct_answers;
     generate_quiz_one();
-
 }
 
 
@@ -74,11 +73,12 @@ function generate_quiz_one(){
     document.getElementById("quiz_one_questions").innerHTML = `
     <form>
     <h2>${current_question.question}</h2>
-    <input type = "text" placeholder = "answer" id ="fill_in_answer">
-    <input type = "submit" value = "submit" id= "submit" onclick = "score_tracker(this.value)">
+    <input type="text" id="fill_in_answer" name="fill_in_answer">
+    <button type = "button" onclick = "score_tracker(${document.getElementById("fill_in_answer")})">Submit</button>
     </form>`
 
   }
+  return false;
 }
 
 console.log(current_question.id);
@@ -88,6 +88,7 @@ return false;
 
 
 function score_tracker(selected_answer){
+  console.log(selected_answer);
   if (answer === selected_answer) {
     current_score = current_score + 1;
     document.getElementById("score").innerHTML = `Score: ${current_score}`;
@@ -95,19 +96,17 @@ function score_tracker(selected_answer){
   }
   else{
     document.getElementById("explanation").style.display = 'block';
+    document.getElementById("login").style.display = 'none';
     document.getElementById("explanation_desc").innerHTML = `
     <h2>Explanation: ${current_question.explanation}</h2>`;
   }
-  if (question_id > number_of_questions) {
-    document.getElementById("complete").innerHTML = "<h2> All Done </h2>"
-  }
+  count = count +1;
 return false;
 }
 
 function timed_encouragment(){
     setTimeout(encouragment)
-    setTimeout(get_api_data('https://my-json-server.typicode.com/sguthrie16/CUS1172_Project_4/db'), 50000)
-
+    setTimeout(get_api_data('https://my-json-server.typicode.com/sguthrie16/CUS1172_Project_4/db'), 10000)
 }
 
 
