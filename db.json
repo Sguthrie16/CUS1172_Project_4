@@ -47,6 +47,7 @@
     {
       "id":5,
       "question_type": "Pictures",
+      "question": "What is the output of this line \n x=10; \nif(x>10){\n console.log(x*4)}\nelse if(x>=10){\n console.log(x*5)}",
       "options": {
         "optiona": "https://images.unsplash.com/photo-1584188336025-eae0d53f8794?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
         "optionb": "https://images.unsplash.com/photo-1584188336025-eae0d53f8794?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
@@ -105,6 +106,7 @@
     {
       "id":5,
       "question_type": "Pictures",
+      "question": "What is the output of this line \n x=10; \nif(x>10){\n console.log(x*4)}\nelse if(x>=10){\n console.log(x*5)}",
       "options": {
         "optiona": "https://images.unsplash.com/photo-1584188336025-eae0d53f8794?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
         "optionb": "https://images.unsplash.com/photo-1584188336025-eae0d53f8794?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
