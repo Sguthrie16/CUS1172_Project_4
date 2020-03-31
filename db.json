@@ -38,14 +38,14 @@
       "explanation": "Java runs of a virtual enviornment"
     },
     {
-      "id":4,
+      "id":5,
       "question_type": "Fill in",
       "question": "What is the output of this line \n x=10; \nif(x>10){\n console.log(x*4)}\nelse if(x>=10){\n console.log(x*5)}",
       "correct_answers":"50",
       "explanation": "You need to make sure to check for the value using the greater than or equal"
     },
     {
-      "id":5,
+      "id":4,
       "question_type": "Pictures",
       "question": "What is the output of this line \n x=10; \nif(x>10){\n console.log(x*4)}\nelse if(x>=10){\n console.log(x*5)}",
       "options": {
@@ -97,14 +97,14 @@
       "explanation": "Java runs of a virtual enviornment"
     },
     {
-      "id":4,
+      "id":5,
       "question_type": "Fill in",
       "question": "What is the output of this line \n x=10; \nif(x>10){\n console.log(x*4)}\nelse if(x>=10){\n console.log(x*5)}",
       "correct_answers":"50",
       "explanation": "You need to make sure to check for the value using the greater than or equal"
     },
     {
-      "id":5,
+      "id":4,
       "question_type": "Pictures",
       "question": "What is the output of this line \n x=10; \nif(x>10){\n console.log(x*4)}\nelse if(x>=10){\n console.log(x*5)}",
       "options": {
