@@ -56,6 +56,14 @@
       "question": "What is the output of this line \n x=10; \nif(x>10){\n console.log(x*4)}\nelse if(x>=10){\n console.log(x*5)}",
       "correct_answers":"50",
       "explanation": "You need to make sure to check for the value using the greater than or equal"
+    },
+    {
+      "id":6,
+      "question_type": "Matching",
+      "question": "In HTML colors make a page. Declaring colors can be done for different types. What color is the following syntax referencing
+                  background-color: 186, 214, 255",
+      "correct_answers":"#bad6ff",
+      "explanation": "You need to make sure to check for the value using the greater than or equal"
     }
   ],
   "Questions_Quiz2": [
