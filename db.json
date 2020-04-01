@@ -13,6 +13,7 @@
       "correct_answers": "System.out.println",
       "explanation": "The correct answers is B because we need to make the system know we are printing a message"
     },
+
     {
       "id": 2,
       "question_type": "Multiple choice",
@@ -26,6 +27,7 @@
       "correct_answers": "6",
       "explanation": "The different H tags are H1, H2, H3, H4, H5, and H6. The smaller the number the smaller the text"
     },
+
     {
       "id":3,
       "question_type": "TF",
@@ -37,6 +39,7 @@
       "correct_answers":"True",
       "explanation": "Java runs of a virtual enviornment"
     },
+
     {
       "id":4,
       "question_type": "Pictures",
@@ -50,6 +53,7 @@
       "correct_answers":"https://images.unsplash.com/photo-1584188336025-eae0d53f8794?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
       "explanation": "You need to make sure to check for the value using the greater than or equal"
     },
+
     {
       "id":5,
       "question_type": "Fill in",
@@ -57,6 +61,7 @@
       "correct_answers":"50",
       "explanation": "You need to make sure to check for the value using the greater than or equal"
     },
+
     {
       "id":6,
       "question_type": "Matching",
@@ -66,6 +71,13 @@
       "explanation": "You need to make sure to check for the value using the greater than or equal"
     }
   ],
+
+
+
+
+
+
+
   "Questions_Quiz2": [
     {
       "id": 1,
@@ -80,6 +92,7 @@
       "correct_answers": "System.out.println",
       "explanation": "The correct answers is B because we need to make the system know we are printing a message"
     },
+
     {
       "id": 2,
       "question_type": "Multiple choice",
@@ -93,6 +106,7 @@
       "correct_answers": "6",
       "explanation": "The different H tags are H1, H2, H3, H4, H5, and H6. The smaller the number the smaller the text"
     },
+
     {
       "id":3,
       "question_type": "TF",
@@ -104,6 +118,7 @@
       "correct_answers":"True",
       "explanation": "Java runs of a virtual enviornment"
     },
+
     {
       "id":4,
       "question_type": "Fill in",
@@ -111,6 +126,7 @@
       "correct_answers":"50",
       "explanation": "You need to make sure to check for the value using the greater than or equal"
     },
+
     {
       "id":5,
       "question_type": "Matching",
@@ -119,6 +135,7 @@
       "correct_answers":"#bad6ff",
       "explanation": "You need to make sure to check for the value using the greater than or equal"
     },
+
     {
       "id":6,
       "question_type": "Pictures",
@@ -129,7 +146,7 @@
         "optionc": "https://images.unsplash.com/photo-1584188336025-eae0d53f8794?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
         "optiond": "https://images.unsplash.com/photo-1584188336025-eae0d53f8794?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
       },
-      "correct_answers":"50",
+      "correct_answers":"https://images.unsplash.com/photo-1584188336025-eae0d53f8794?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
       "explanation": "You need to make sure to check for the value using the greater than or equal"
     }
   ]
