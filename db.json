@@ -5,7 +5,7 @@
       "question_type": "Multiple choice",
       "question": "Which is correct Java Syntax",
       "options": {
-        "optiona": ["System.in.println","System.out.in.alla","saraha"],
+        "optiona": {"System.in.println","System.out.in.alla","saraha"},
         "optionb": "System.out.println",
         "optionc": "helloWorld",
         "optiond": "Print helloWorld"
