@@ -5,7 +5,7 @@
       "question_type": "Multiple choice",
       "question": "Which is correct Java Syntax",
       "options": {
-        "optiona": {"System.in.println","System.out.in.alla","saraha"},
+        "optiona": "System.in.println",
         "optionb": "System.out.println",
         "optionc": "helloWorld",
         "optiond": "Print helloWorld"
@@ -120,7 +120,7 @@
     {
       "id":4,
       "question_type": "Fill in",
-      "question": "What is the output of this line \n x=10; \nif(x>10){\n console.log(x*4)}\nelse if(x>=10){\n console.log(x*5)}",
+      "question": ["What is the output of this line","x=10;" ,"if(x>10){", "console.log(x*4)}","else if(x>=10){","console.log(x*5)}"],
       "correct_answers":"50",
       "explanation": "You need to make sure to check for the value using the greater than or equal"
     },
