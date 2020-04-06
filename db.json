@@ -10,7 +10,7 @@
         "optionc": "helloWorld",
         "optiond": "Print helloWorld"
       },
-      "correct_answers": "Bike,Car",
+      "correct_answers": "BikeCar",
       "explanation": "Performing backups regularly guarantees that all your information is stored either on your system or remotely in the case that you lose access or your system malfunctions."
     },
     {
