@@ -2,8 +2,21 @@
   "Questions_Quiz1": [
     {
       "id": 1,
+      "question_type": "Multiple selection",
+      "question": "To preserve documents on your computer, what should you perform frequently?",
+      "options": {
+        "optiona": "System.in.println",
+        "optionb": "System.out.println",
+        "optionc": "helloWorld",
+        "optiond": "Print helloWorld"
+      },
+      "correct_answers": "Bike,Car",
+      "explanation": "Performing backups regularly guarantees that all your information is stored either on your system or remotely in the case that you lose access or your system malfunctions."
+    },
+    {
+      "id": 1,
       "question_type": "Fill in",
-      "question": "To persserve documents on your computer, what should you perform frequently?",
+      "question": "To preserve documents on your computer, what should you perform frequently?",
       "correct_answers": "Backups",
       "explanation": "Performing backups regularly guarantees that all your information is stored either on your system or remotely in the case that you lose access or your system malfunctions."
     },
@@ -65,7 +78,7 @@
       "id":7,
       "question_type": "Matching",
       "question": "In HTML colors make a page. Declaring colors can be done for different types. What color is the following syntax referencing background-color:184, 214, 255,",
-      "correct_answers":"b8d6ff",
+      "correct_answers":"#b8d6ff",
       "explanation": "You need to make sure to check for the value using the greater than or equal"
     }
   ],
