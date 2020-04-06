@@ -79,7 +79,7 @@
       "id":6,
       "question_type": "Matching",
       "question": "In HTML colors make a page. Declaring colors can be done for different types. What color is the following syntax referencing background-color:184, 214, 255,",
-      "correct_answers":"#b8d6ff",
+      "correct_answers":"b8d6ff",
       "explanation": "You need to make sure to check for the value using the greater than or equal"
     }
   ],
