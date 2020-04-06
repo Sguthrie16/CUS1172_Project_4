@@ -5,12 +5,12 @@
       "question_type": "Multiple selection",
       "question": "To preserve documents on your computer, what should you perform frequently?",
       "options": {
-        "optiona": "System.in.println",
-        "optionb": "System.out.println",
-        "optionc": "helloWorld",
-        "optiond": "Print helloWorld"
+        "optiona": "one",
+        "optionb": "two",
+        "optionc": "three",
+        "optiond": "four"
       },
-      "correct_answers": "BikeCar",
+      "correct_answers": "onefour",
       "explanation": "Performing backups regularly guarantees that all your information is stored either on your system or remotely in the case that you lose access or your system malfunctions."
     },
     {
