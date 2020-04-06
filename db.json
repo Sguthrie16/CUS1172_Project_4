@@ -14,21 +14,21 @@
       "explanation": "Performing backups regularly guarantees that all your information is stored either on your system or remotely in the case that you lose access or your system malfunctions."
     },
     {
-      "id": 1,
+      "id": 2,
       "question_type": "Fill in",
       "question": "To preserve documents on your computer, what should you perform frequently?",
       "correct_answers": "Backups",
       "explanation": "Performing backups regularly guarantees that all your information is stored either on your system or remotely in the case that you lose access or your system malfunctions."
     },
     {
-      "id": 2,
+      "id": 3,
       "question_type": "Fill in",
       "question": "What is the main circuit board of a system unit?",
       "correct_answers": "Motherboard",
       "explanation": "The motherboard contains the processor, memory, and other important components."
     },
     {
-      "id": 3,
+      "id": 4,
       "question_type": "Multiple choice",
       "question": "Which is correct Java Syntax",
       "options": {
@@ -42,7 +42,7 @@
     },
 
     {
-      "id":4,
+      "id":5,
       "question_type": "TF",
       "question": "Does Java run on a virtual enviornment",
       "options":{
@@ -54,7 +54,7 @@
     },
 
     {
-      "id":5,
+      "id":6,
       "question_type": "Pictures",
       "question": "pick one",
       "options": {
@@ -68,14 +68,14 @@
     },
 
     {
-      "id":6,
+      "id":7,
       "question_type": "Fill in",
       "question": "What is the output of this line \n x=10; \nif(x>10){\n console.log(x*4)}\nelse if(x>=10){\n console.log(x*5)}",
       "correct_answers":"50",
       "explanation": "You need to make sure to check for the value using the greater than or equal"
     },
     {
-      "id":7,
+      "id":8,
       "question_type": "Matching",
       "question": "In HTML colors make a page. Declaring colors can be done for different types. What color is the following syntax referencing background-color:184, 214, 255,",
       "correct_answers":"#b8d6ff",
