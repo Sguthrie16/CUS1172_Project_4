@@ -62,7 +62,7 @@
     {
       "id":6,
       "question_type": "Fill in",
-      "question": ".\\Images_for_quiz\\Quiz1\\Python_Code_If_Statment",
+      "question": "<img src=.\\Images_for_quiz\\Quiz1\\Python_Code_If_Statment",
       "correct_answers":"50",
       "explanation": "You need to make sure to check for the value using the greater than or equal"
     },
