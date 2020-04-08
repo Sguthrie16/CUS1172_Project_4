@@ -50,10 +50,10 @@
       "question_type": "Pictures",
       "question": "pick one",
       "options": {
-        "optiona": ".\Images for quiz\Quiz 1\File_name_correct_option.PNG",
-        "optionb": ".\Images for quiz\Quiz 1\File_name_Option1.PNG",
-        "optionc": ".\Images for quiz\Quiz 1\File_name_Option2.PNG",
-        "optiond": ".\Images for quiz\Quiz 1\File_name_Option3.PNG"
+        "optiona": "\Images for quiz\Quiz 1\File_name_correct_option.PNG",
+        "optionb": "\Images for quiz\Quiz 1\File_name_Option1.PNG",
+        "optionc": "\Images for quiz\Quiz 1\File_name_Option2.PNG",
+        "optiond": "\Images for quiz\Quiz 1\File_name_Option3.PNG"
       },
       "correct_answers":"https://images.unsplash.com/photo-1584188336025-eae0d53f8794?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
       "explanation": "You need to make sure to check for the value using the greater than or equal"
