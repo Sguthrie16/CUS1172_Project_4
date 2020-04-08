@@ -62,12 +62,13 @@
     {
       "id":6,
       "question_type": "Fill in",
-      "question":{ "What is the output of this line",
-         "x=10;",
-         "if(x>10){",
-           "console.log(x*4)}",
-           "else if(x>=10){",
-             "console.log(x*5)}"
+      "question":{
+        "questiona":"What is the output of this line",
+        "questionb":"x=10;",
+        "questionc":"if(x>10){",
+        "questiond":"console.log(x*4)}",
+        "questione":"else if(x>=10){",
+        "questionf":"console.log(x*5)}"
            },
       "correct_answers":"50",
       "explanation": "You need to make sure to check for the value using the greater than or equal"
