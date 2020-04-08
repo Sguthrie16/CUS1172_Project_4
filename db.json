@@ -3,7 +3,7 @@
     {
       "id": 1,
       "question_type": "Multiple selection",
-      "question": "Which of these are ways to achieve an Asynchronous Network Request"
+      "question": "Which of these are ways to achieve an Asynchronous Network Request",
       "options": {
         "optiona": "Asynchronous request using Callback and AJAX",
         "optionb": "Network requests using Promises and the fetch API",
