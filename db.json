@@ -1,17 +1,17 @@
 {
   "Questions_Quiz1": [
     {
-      "id": 1,
-      "question_type": "Multiple selection",
-      "question": "To preserve documents on your computer, what should you perform frequently?",
-      "options": {
-        "optiona": "one",
-        "optionb": "two",
-        "optionc": "three",
-        "optiond": "four"
-      },
-      "correct_answers": "onefour",
-      "explanation": "Performing backups regularly guarantees that all your information is stored either on your system or remotely in the case that you lose access or your system malfunctions."
+    "id": 1,
+    "question_type": "Multiple selection",
+    "question": "Which of these are ways to achieve an Asynchronous Network Request?",
+    "options": {
+      "optiona": "Asynchronous request using Callback and AJAX",
+      "optionb": "Network requests using Promises and the fetch API",
+      "optionc": "Network requests using await and the fetch API",
+      "optiond": "Network Request using Async/Await Syntax"
+    },
+    "correct_answers": "Asynchronous request using Callback and AJAXNetwork requests using Promises and the fetch APINetwork Request using Async/Await Syntax",
+    "explanation": "Coordination and communication between asynchronous function request and the javascript engine relies on callbacks, promises and/or Async/Await functionality"
     },
     {
       "id": 2,
