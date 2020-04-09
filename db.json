@@ -137,16 +137,10 @@
     },
     {
     "id": 14,
-    "question_type": "Multiple choice",
-    "question": "Which of the following function of String object is used to replace a part of a string with another substring?",
-    "options": {
-      "optiona": "concat()",
-      "optionb": "match()",
-      "optionc": "replace()",
-      "optiond": "search()"
-    },
+    "question_type": "Fill in",
+    "question": "What is the JS function of String object that is used to replace a part of a string with another substring?",
     "correct_answers": "replace()",
-    "explanation": "Raplce is ssed to find a match between a regular expression and a string, and to replace the matched substring with a new substring."
+    "explanation": "Replace is ssed to find a match between a regular expression and a string, and to replace the matched substring with a new substring."
     },
     {
       "id":15,
@@ -161,7 +155,7 @@
       "correct_answers":"file:///C:/Users/Sarah%20Guthrie/Desktop/CUS1172_Spring2020_Sarah/Images_for_quiz/Quiz1/correct_answer_array_output.PNG",
       "explanation": "Paying close attention to when the while loop will terminate is key in answering this question."
     }
-  ],
+  ]
 
 
 }
