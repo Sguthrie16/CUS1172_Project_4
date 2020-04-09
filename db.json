@@ -44,7 +44,6 @@
       "correct_answers":"True",
       "explanation": "A Java virtual machine (JVM) is a virtual machine that enables a computer to run Java programs as well as programs written in other languages that are also compiled to Java bytecode."
     },
-
     {
       "id":5,
       "question_type": "Pictures",
@@ -58,7 +57,6 @@
       "correct_answers":"file:///C:/Users/Sarah%20Guthrie/Desktop/CUS1172_Spring2020_Sarah/Images_for_quiz/Quiz1/File_name_correct_option.PNG",
       "explanation": "Typically a file name and the class within match up"
     },
-
     {
       "id":6,
       "question_type": "Fill in",
@@ -72,6 +70,26 @@
       "question": "What is the main circuit board of a system unit?",
       "correct_answers": "Motherboard",
       "explanation": "The motherboard contains the processor, memory, and other important components."
+    },
+    {
+      "id":8,
+      "question_type": "Fill in",
+      "question": "What is the name of the following loop  <img src='.\\Images_for_quiz\\Quiz1\\For_loop.PNG'>",
+      "correct_answers":"For loop",
+      "explanation": "A for loop allows code to be executed repeatedly for a set length that is specified within the loop"
+    },
+    {
+      "id":9,
+      "question_type": "Pictures",
+      "question": "Which of the following images produce a mismatch error ",
+      "options": {
+        "optiona": ".\\Images_for_quiz\\Quiz1\\Mistmatch_error_code.PNG",
+        "optionb": ".\\Images_for_quiz\\Quiz1\\No_mistmatch_error_code.PNG",
+        "optionc": ".\\Images_for_quiz\\Quiz1\\No_mistmatch_error_code2.PNG",
+        "optiond": ".\\Images_for_quiz\\Quiz1\\Mistmatch_error_code2.PNG"
+      },
+      "correct_answers":"file:///C:/Users/Sarah%20Guthrie/Desktop/CUS1172_Spring2020_Sarah/Images_for_quiz/Quiz1/Mistmatch_error_code.PNGfile:///C:/Users/Sarah%20Guthrie/Desktop/CUS1172_Spring2020_Sarah/Images_for_quiz/Quiz1/Mistmatch_error_code2.PNG",
+      "explanation": "Typically a file name and the class within match up"
     }
   ],
 
