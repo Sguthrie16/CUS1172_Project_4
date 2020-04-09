@@ -170,7 +170,7 @@
     "id": 17,
     "question_type": "Fill in",
     "question": "What is Beta version?",
-    "correct_answers": "version which is not ready for release and can be changed after the feedback from the users",
+    "correct_answers": "A version which is not ready for release and can be changed after the feedback from the users",
     "explanation": "This is a phase in the creation of a application"
     },
     {
