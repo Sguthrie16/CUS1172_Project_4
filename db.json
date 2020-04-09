@@ -80,13 +80,13 @@
     },
     {
       "id":9,
-      "question_type": "Pictures",
+      "question_type": "Multiple selection",
       "question": "Which of the following images produce a mismatch error ",
       "options": {
-        "optiona": ".\\Images_for_quiz\\Quiz1\\Mistmatch_error_code.PNG",
-        "optionb": ".\\Images_for_quiz\\Quiz1\\No_mistmatch_error_code.PNG",
-        "optionc": ".\\Images_for_quiz\\Quiz1\\No_mistmatch_error_code2.PNG",
-        "optiond": ".\\Images_for_quiz\\Quiz1\\Mistmatch_error_code2.PNG"
+        "optiona": "<img src='.\\Images_for_quiz\\Quiz1\\Mistmatch_error_code.PNG'width=100%>",
+        "optionb": "<img src='.\\Images_for_quiz\\Quiz1\\No_mistmatch_error_code.PNG'width=100%>",
+        "optionc": "<img src='.\\Images_for_quiz\\Quiz1\\No_mistmatch_error_code2.PNG'width=100%>",
+        "optiond": "<img src='.\\Images_for_quiz\\Quiz1\\Mistmatch_error_code2.PNG'width=100%>"
       },
       "correct_answers":"file:///C:/Users/Sarah%20Guthrie/Desktop/CUS1172_Spring2020_Sarah/Images_for_quiz/Quiz1/Mistmatch_error_code.PNGfile:///C:/Users/Sarah%20Guthrie/Desktop/CUS1172_Spring2020_Sarah/Images_for_quiz/Quiz1/Mistmatch_error_code2.PNG",
       "explanation": "Typically a file name and the class within match up"
