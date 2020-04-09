@@ -166,7 +166,37 @@
       "correct_answers":"True",
       "explanation": "Webpages can display different depending on the size of a screen. It is smart to account for different media types."
     },
+    {
+    "id": 17,
+    "question_type": "Fill in",
+    "question": "What is Beta version?",
+    "correct_answers": "version which is not ready for release and can be changed after the feedback from the users",
+    "explanation": "This is a phase in the creation of a application"
+    },
+    {
+    "id": 18,
+    "question_type": "Fill in",
+    "question": "What is a crash dump?",
+    "correct_answers": "A recording of the memory of a program at the occasion of a crash",
+    "explanation": "This recording lets programmers or other people investigate what caused the crash."
+    },
+    {
+      "id":19,
+      "question_type": "TF",
+      "question": "Memory dump and crash dump are different",
+      "options":{
+        "optiona": "True",
+        "optionb": "False"
+      },
+      "correct_answers":"False",
+      "explanation": "These words can be used interchangable."
+    },
+    {
+    "id": 20,
+    "question_type": "Fill in",
+    "question": "Where was the first computer science department?",
+    "correct_answers": "University of Cambridge Computer Laboratory",
+    "explanation": "The field of computer science developed from numerous different people and Cambridge had the first departmen soley dedicated to it."
+    }
   ]
-
-
 }
