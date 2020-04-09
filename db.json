@@ -158,13 +158,13 @@
     {
       "id":16,
       "question_type": "TF",
-      "question": "You should have different templates based on screen size",
+      "question": "The three ways to declare a function in JS are function declaration, function expression, and arrow syntax",
       "options":{
         "optiona": "True",
         "optionb": "False"
       },
       "correct_answers":"True",
-      "explanation": "Webpages can display different depending on the size of a screen. It is smart to account for different media types."
+      "explanation": "These three ways create a function and though the declaration is different it does not chnage the way a functions works"
     },
     {
     "id": 17,
