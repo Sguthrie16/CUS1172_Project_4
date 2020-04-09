@@ -23,7 +23,7 @@
     {
       "id": 3,
       "question_type": "Multiple choice",
-      "question": "Which is correct Java Syntax",
+      "question": "Which is correct Java Syntax?",
       "options": {
         "optiona": "System.in.println(x)",
         "optionb": "System.out.println(x)",
@@ -36,7 +36,7 @@
     {
       "id":4,
       "question_type": "TF",
-      "question": "Does Java run inn a virtual enviornment",
+      "question": "Does Java run inn a virtual enviornment?",
       "options":{
         "optiona": "True",
         "optionb": "False"
@@ -60,7 +60,7 @@
     {
       "id":6,
       "question_type": "Fill in",
-      "question": "What is the output of the following code  <img src='.\\Images_for_quiz\\Quiz1\\Python_Code_If_Statment.PNG'>",
+      "question": "What is the output of the following code?  <img src='.\\Images_for_quiz\\Quiz1\\Python_Code_If_Statment.PNG'>",
       "correct_answers":"50",
       "explanation": "You need to make sure to check for the value using the greater than or equal"
     },
@@ -74,14 +74,14 @@
     {
       "id":8,
       "question_type": "Fill in",
-      "question": "What is the name of the following loop  <img src='.\\Images_for_quiz\\Quiz1\\For_loop.PNG'>",
+      "question": "What is the name of the following loop?  <img src='.\\Images_for_quiz\\Quiz1\\For_loop.PNG'>",
       "correct_answers":"For loop",
       "explanation": "A for loop allows code to be executed repeatedly for a set length that is specified within the loop"
     },
     {
       "id":9,
       "question_type": "Pictures",
-      "question": "Which of the following images produce a mismatch error ",
+      "question": "Which of the following images produce a mismatch error?",
       "options": {
         "optiona": ".\\Images_for_quiz\\Quiz1\\Mistmatch_error_code.PNG",
         "optionb": ".\\Images_for_quiz\\Quiz1\\No_mistmatch_error_code.PNG",
@@ -90,7 +90,77 @@
       },
       "correct_answers":"file:///C:/Users/Sarah%20Guthrie/Desktop/CUS1172_Spring2020_Sarah/Images_for_quiz/Quiz1/Mistmatch_error_code.PNG",
       "explanation": "This is a mismatch because you cannot convert from int to boolean"
-    }
+    },
+    {
+      "id": 10,
+      "question_type": "Multiple choice",
+      "question": "When does a logical error occur?",
+      "options": {
+        "optiona": "The logical error happens when a program implements the wrong logic",
+        "optionb": "The logical error happens when a program implements the correct logic",
+        "optionc": "The logical error happens when a program is not smart",
+        "optiond": "The logical error happens when a user does not know how to use a program"
+      },
+      "correct_answers": "The logical error happens when a program implements the wrong logic",
+      "explanation": "These errors are the most difficult to locate because the compiler does not report any error message."
+    },
+    {
+    "id": 11,
+    "question_type": "Multiple selection",
+    "question": "Name different types of errors which can occur during the execution of a program",
+    "options": {
+      "optiona": "Syntax Errors",
+      "optionb": "Runtime Errors",
+      "optionc": "Logical errors",
+      "optiond": "Non Logical errors"
+    },
+    "correct_answers": "Syntax ErrorsRuntime ErrorsLogical errors",
+    "explanation": "These are the three types of errors that can occure when a program executes."
+    },
+    {
+      "id":12,
+      "question_type": "Fill in",
+      "question": "What do we call the binary form of a target language?",
+      "correct_answers":"Binary Code",
+      "explanation": "These two words are interchangable and refer to the same concept."
+    },
+    {
+      "id":13,
+      "question_type": "TF",
+      "question": "Can you access Cookie using javascript?",
+      "options":{
+        "optiona": "True",
+        "optionb": "False"
+      },
+      "correct_answers":"True",
+      "explanation": "JavaScript can also manipulate cookies using the cookie property of the Document object."
+    },
+    {
+    "id": 14,
+    "question_type": "Multiple choice",
+    "question": "Which of the following function of String object is used to replace a part of a string with another substring?",
+    "options": {
+      "optiona": "concat()",
+      "optionb": "match()",
+      "optionc": "replace()",
+      "optiond": "search()"
+    },
+    "correct_answers": "replace()",
+    "explanation": "Raplce is ssed to find a match between a regular expression and a string, and to replace the matched substring with a new substring."
+    },
+    {
+      "id":15,
+      "question_type": "Pictures",
+      "question": "Which of the following prints out 'abcdef'?",
+      "options": {
+        "optiona": ".\\Images_for_quiz\\Quiz1\\Array_output.PNG",
+        "optionb": ".\\Images_for_quiz\\Quiz1\\Array_output2.PNG",
+        "optionc": ".\\Images_for_quiz\\Quiz1\\correct_answer_array_output.PNG",
+        "optiond": ".\\Images_for_quiz\\Quiz1\\Array_output3.PNG"
+      },
+      "correct_answers":"file:///C:/Users/Sarah%20Guthrie/Desktop/CUS1172_Spring2020_Sarah/Images_for_quiz/Quiz1/correct_answer_array_output.PNG",
+      "explanation": "Paying close attention to when the while loop will terminate is key in answering this question."
+    },
   ],
 
 
