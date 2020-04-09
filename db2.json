@@ -1,0 +1,72 @@
+{
+  "Questions_Quiz2": [
+    {
+      "id": 1,
+      "question_type": "Multiple choice",
+      "question": "Which is correct python Syntax",
+      "options": {
+        "optiona": "System.in.println",
+        "optionb": "System.out.println",
+        "optionc": "helloWorld",
+        "optiond": "Print helloWorld"
+      },
+      "correct_answers": "System.out.println",
+      "explanation": "The correct answers is B because we need to make the system know we are printing a message"
+    },
+
+    {
+      "id": 2,
+      "question_type": "Multiple choice",
+      "question": "How many H tags are there HTML",
+      "options": {
+        "optiona": "1",
+        "optionb": "10",
+        "optionc": "6",
+        "optiond": "7"
+      },
+      "correct_answers": "6",
+      "explanation": "The different H tags are H1, H2, H3, H4, H5, and H6. The smaller the number the smaller the text"
+    },
+
+    {
+      "id":3,
+      "question_type": "TF",
+      "question": "Does Java run on a virtual enviornment",
+      "options":{
+        "optiona": "True",
+        "optionb": "False"
+      },
+      "correct_answers":"True",
+      "explanation": "Java runs of a virtual enviornment"
+    },
+
+    {
+      "id":4,
+      "question_type": "Fill in",
+      "question": "What is the output of this line \n x=10; \nif(x>10){\n console.log(x*4)}\nelse if(x>=10){\n console.log(x*5)}",
+      "correct_answers":"50",
+      "explanation": "You need to make sure to check for the value using the greater than or equal"
+    },
+
+    {
+      "id":5,
+      "question_type": "Matching",
+      "question": "In HTML colors make a page. Declaring colors can be done for different types. What color is the following syntax referencing background-color:184, 214, 255,",
+      "correct_answers":"#b8d6ff",
+      "explanation": "You need to make sure to check for the value using the greater than or equal"
+    },
+    {
+      "id":6,
+      "question_type": "Pictures",
+      "question": "What is the output of this line \n x=10; \nif(x>10){\n console.log(x*4)}\nelse if(x>=10){\n console.log(x*5)}",
+      "options": {
+        "optiona": "https://images.unsplash.com/photo-1584188336025-eae0d53f8794?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
+        "optionb": "https://images.unsplash.com/photo-1584188336025-eae0d53f8794?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
+        "optionc": "https://images.unsplash.com/photo-1584188336025-eae0d53f8794?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
+        "optiond": "https://images.unsplash.com/photo-1584188336025-eae0d53f8794?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
+      },
+      "correct_answers":"https://images.unsplash.com/photo-1584188336025-eae0d53f8794?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ",
+      "explanation": "You need to make sure to check for the value using the greater than or equal"
+    }
+  ]
+}
