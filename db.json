@@ -31,12 +31,12 @@
         "optiond": "Print helloWorld"
       },
       "correct_answers": "System.out.println(x)",
-      "explanation": "The correct answers is B because we need to make the system know we are printing a message"
+      "explanation": "The correct answers is option b because we need to make the system know we are printing a message"
     },
     {
       "id":4,
       "question_type": "TF",
-      "question": "Does Java run inn a virtual enviornment?",
+      "question": "Does Java run in a virtual enviornment?",
       "options":{
         "optiona": "True",
         "optionb": "False"
@@ -55,14 +55,14 @@
         "optiond": ".\\Images_for_quiz\\Quiz1\\File_name_Option3.PNG"
       },
       "correct_answers":"file:///C:/Users/Sarah%20Guthrie/Desktop/CUS1172_Spring2020_Sarah/Images_for_quiz/Quiz1/File_name_correct_option.PNG",
-      "explanation": "Typically a file name and the class within match up"
+      "explanation": "Typically a file name and the class will match up"
     },
     {
       "id":6,
       "question_type": "Fill in",
       "question": "What is the output of the following code?  <img src='.\\Images_for_quiz\\Quiz1\\Python_Code_If_Statment.PNG'>",
       "correct_answers":"50",
-      "explanation": "You need to make sure to check for the value using the greater than or equal"
+      "explanation": "The correct answer is 50. You need to make sure to check for the value using the greater than or equal"
     },
     {
       "id": 7,
@@ -102,7 +102,7 @@
         "optiond": "The logical error happens when a user does not know how to use a program"
       },
       "correct_answers": "The logical error happens when a program implements the wrong logic",
-      "explanation": "These errors are the most difficult to locate because the compiler does not report any error message."
+      "explanation": "The logical error happens when a program implements the wrong logic.These errors are the most difficult to locate because the compiler does not report any error message."
     },
     {
     "id": 11,
@@ -115,7 +115,7 @@
       "optiond": "Non Logical errors"
     },
     "correct_answers": "Syntax ErrorsRuntime ErrorsLogical errors",
-    "explanation": "These are the three types of errors that can occure when a program executes."
+    "explanation": "Syntax Errors Runtime Errors and Logical errors are the three types of errors that can occure when a program executes."
     },
     {
       "id":12,
@@ -140,7 +140,7 @@
     "question_type": "Fill in",
     "question": "What is the JS function of String object that is used to replace a part of a string with another substring?",
     "correct_answers": "replace()",
-    "explanation": "Replace is ssed to find a match between a regular expression and a string, and to replace the matched substring with a new substring."
+    "explanation": "Replace is used to find a match between a regular expression and a string, and to replace the matched substring with a new substring."
     },
     {
       "id":15,
@@ -171,14 +171,14 @@
     "question_type": "Fill in",
     "question": "What is Beta version?",
     "correct_answers": "A version which is not ready for release and can be changed after the feedback from the users",
-    "explanation": "This is a phase in the creation of a application"
+    "explanation": "A version which is not ready for release and can be changed after the feedback from the users. This is a phase in the creation of a application"
     },
     {
     "id": 18,
     "question_type": "Fill in",
     "question": "What is a crash dump?",
     "correct_answers": "A recording of the memory of a program at the occasion of a crash",
-    "explanation": "This recording lets programmers or other people investigate what caused the crash."
+    "explanation": "A recording of the memory of a program at the occasion of a crash. This recording lets programmers or other people investigate what caused the crash."
     },
     {
       "id":19,
