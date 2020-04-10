@@ -54,7 +54,7 @@
         "optionc": ".\\Images_for_quiz\\Quiz1\\File_name_Option2.PNG",
         "optiond": ".\\Images_for_quiz\\Quiz1\\File_name_Option3.PNG"
       },
-      "correct_answers":"file:///C:/Users/Sarah%20Guthrie/Desktop/CUS1172_Spring2020_Sarah/Images_for_quiz/Quiz1/File_name_correct_option.PNG",
+      "correct_answers":".\\Images_for_quiz\\Quiz1\\File_name_correct_option.PNG",
       "explanation": "Typically a file name and the class will match up"
     },
     {
