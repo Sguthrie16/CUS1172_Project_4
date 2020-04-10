@@ -83,10 +83,10 @@
       "question_type": "Pictures",
       "question": "Which of the following images produce a mismatch error?",
       "options": {
-        "optiona": ".\\Images_for_quiz\\Quiz1\\Mistmatch_error_code.PNG",
-        "optionb": ".\\Images_for_quiz\\Quiz1\\No_mistmatch_error_code.PNG",
-        "optionc": ".\\Images_for_quiz\\Quiz1\\No_mistmatch_error_code2.PNG",
-        "optiond": ".\\Images_for_quiz\\Quiz1\\No_mistmatch_error_code3.PNG"
+        "optiona": ".\\Images_for_quiz\\Quiz1\\Mistmatch_error_code.PNG height=332",
+        "optionb": ".\\Images_for_quiz\\Quiz1\\No_mistmatch_error_code.PNG height=332",
+        "optionc": ".\\Images_for_quiz\\Quiz1\\No_mistmatch_error_code2.PNG height=332",
+        "optiond": ".\\Images_for_quiz\\Quiz1\\No_mistmatch_error_code3.PNG height=332"
       },
       "correct_answers":"file:///C:/Users/Sarah%20Guthrie/Desktop/CUS1172_Spring2020_Sarah/Images_for_quiz/Quiz1/Mistmatch_error_code.PNG",
       "explanation": "This is a mismatch because you cannot convert from int to boolean"
