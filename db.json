@@ -152,7 +152,7 @@
         "optionc": ".\\Images_for_quiz\\Quiz1\\correct_answer_array_output.PNG",
         "optiond": ".\\Images_for_quiz\\Quiz1\\Array_output3.PNG"
       },
-      "correct_answers":"Images_for_quiz/Quiz2/correct_answer_array_output.PNG",
+      "correct_answers":"Images_for_quiz/Quiz1/correct_answer_array_output.PNG",
       "explanation": "Paying close attention to when the while loop will terminate is key in answering this question."
     },
     {
