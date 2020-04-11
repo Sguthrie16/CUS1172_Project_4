@@ -170,14 +170,14 @@
     "id": 17,
     "question_type": "Fill in",
     "question": "What is Beta version?",
-    "correct_answers": "A version which is not ready for release and can be changed after the feedback from the users",
+    "correct_answers": "An early version",
     "explanation": "A version which is not ready for release and can be changed after the feedback from the users. This is a phase in the creation of a application"
     },
     {
     "id": 18,
     "question_type": "Fill in",
     "question": "What is a crash dump?",
-    "correct_answers": "A recording of the memory of a program at the occasion of a crash",
+    "correct_answers": "Memory Dump",
     "explanation": "A recording of the memory of a program at the occasion of a crash. This recording lets programmers or other people investigate what caused the crash."
     },
     {
@@ -195,7 +195,7 @@
     "id": 20,
     "question_type": "Fill in",
     "question": "Where was the first computer science department?",
-    "correct_answers": "University of Cambridge Computer Laboratory",
+    "correct_answers": "Cambridge",
     "explanation": "The field of computer science developed from numerous different people and Cambridge had the first departmen soley dedicated to it."
     }
   ]
